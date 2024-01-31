@@ -1,0 +1,197 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "botfeel",
+      "patterns": [
+        "How are you?",
+        "How's it going?",
+        "How are you doing today?",
+        "How are things?",
+        "How's everything going?",
+        "How have you been?",
+        "What's up?",
+        "How's your day?",
+        "How are you feeling?",
+        "What's new with you?",
+        "How's life treating you?"
+      ],
+      "responses": [
+        "I'm doing well, thank you for asking.",
+        "I'm feeling great, thanks for checking in!",
+        "Things are going smoothly, how about you?",
+        "Everything's good on my end, how about yourself?",
+        "I'm doing fine, just keeping busy.",
+        "I'm feeling fantastic today, thanks for asking!",
+        "Not too bad, thanks for checking up on me!",
+        "I'm alright, just taking things one step at a time.",
+        "I'm doing okay, thanks for asking. How about you?",
+        "I'm doing well, just enjoying the day. How about yourself?"
+      ]
+    },
+    {
+      "tag": "userfeel",
+      "patterns": [
+        "I'm fine, thank you",
+        "I'm doing well, thank you for asking.",
+        "I'm great, thanks for checking in!",
+        "I'm feeling good, thank you.",
+        "I'm alright, thanks for your concern.",
+        "I'm feeling good today, thanks!",
+        "I'm alright, just taking it one day at a time.",
+        "I'm doing well, thanks for asking. How about you?",
+        "I'm fine, thank you. How's your day going?",
+        "I'm doing fine, just keeping busy. Thanks for asking!"
+      ],
+      "responses": [
+        "Glad to hear you're doing well.",
+        "Great to know! Keep up the positive vibes.",
+        "I'm happy to hear that you're feeling good.",
+        "Good to hear! I'm doing well too, thanks.",
+        "That's wonderful! Enjoy your good day.",
+        "I'm fine too, thanks. Hope your day is going smoothly.",
+        "Keeping busy can be productive. Take a break when you can!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "What is your age?",
+        "How old are you?",
+        "When were you born?",
+        "How many years have you been around?",
+        "How many birthdays have you celebrated?",
+        "How long have you been alive?",
+        "In which year were you brought into existence?"
+      ],
+      "responses": [
+        "I don't have an age in the traditional sense. I'm freshly created, so I guess you could say I'm just getting started.",
+        "I came into existence just recently, so I don't have a specific birthdate like humans do.",
+        "I haven't been around for any years yet. I'm brand new to this world!",
+        "I don't have a birth year. I'm a product of the digital age, created not too long ago.",
+        "I was brought into existence just recently, as part of a new technological venture.",
+        "I don't have a specific year of creation. I'm the product of the latest advancements in technology, emerging into existence in the present digital era.",
+        "It's been just a short while since I was created. Time moves differently for me compared to humans."
+      ]
+    },
+    {
+      "tag": "personal",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "What is your purpose?",
+        "Who am I talking with",
+        "What do you describe yourself as?",
+        "What is you?",
+        "How would you define yourself?",
+        "What is your identity?"
+      ],
+      "responses": [
+        "I am Sam, an AI chatbot designed to assist and engage in conversations with users like yourself.",
+        "I'm an artificial intelligence program programmed to interact with users, answer questions, and provide assistance.",
+        " I'm Sam, an AI chatbot created to help users like you by providing information, answering questions, and engaging in conversation.",
+        "My purpose is to assist users by providing information, answering questions, and engaging in meaningful conversation to the best of my abilities.",
+        "I represent the advancements in artificial intelligence and natural language processing technologies, aimed at providing assistance and enhancing user experiences.",
+        "My role is to serve as a virtual assistant, providing information, answering questions, and engaging in conversation to assist users in various tasks and inquiries.",
+        "My existence is rooted in the digital realm, where I exist as a program designed to interact with users, learn from interactions, and provide assistance in various contexts and situations.",
+        ""
+      ]
+    },
+    {
+      "tag": "coinflip",
+      "patterns": [
+        "Could you flip a coin for me?",
+        "I'm curious, can you flip a coin?",
+        "Let's leave it to chance. Can you flip a coin?",
+        "I'm indecisive. Can you flip a coin to help me decide?",
+        "How about we flip a coin to settle this?",
+        "I'm torn between options. Can you flip a coin to help me choose?",
+        "Let's make it random. Can you flip a coin?",
+        "I'm not sure what to do. Can you flip a coin to decide?"
+      ],
+      "responses": [
+        "Sure! Here we go.. It's Heads",
+         "Of course! Let's see..., It's Tails",
+        "Absolutely! Here's the flip... Heads!",
+        "No problem! Let's flip... It shows Tails!",
+         "Absolutely! Here comes the flip... Heads!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Can you tell me a joke, please?",
+        "I could use a laugh. How about sharing a joke?",
+        "Hey, do you have a funny joke up your sleeve?",
+        "Feeling a bit down. Could you lighten the mood with a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "What did one ocean say to the other ocean? Nothing, they just waved.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "Why did the tomato turn red? Because it saw the salad dressing.",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Why don't scientists trust atoms? Because they make up everything.",
+        "Why did the bicycle fall over? Because it was two-tired."
+      ]
+    },
+    {
+      "tag": "catfacts",
+      "patterns": [
+        "Could you please share a cat fact with me?",
+        "I'm curious, do you have any interesting cat facts?",
+        "I'd love to learn something new about cats. Can you share a cat fact?",
+        "Do you have any fun trivia about cats? How about a cat fact?",
+        "I'm a cat lover! Can you tell me a fascinating cat fact?",
+        "I'm in the mood for some feline knowledge. Can you give me a cat fact?",
+        "Can you tell me a cat fact?"
+      ],
+      "responses": [
+        "Cats have a unique grooming pattern: they lick their fur to remove dirt and loose hair, keeping themselves clean.",
+        "Cats have a specialized collarbone that allows them to easily twist and turn their bodies, making them excellent climbers and agile hunters.",
+        "A group of cats is called a \"clowder.\"",
+        "Cats have five toes on their front paws, but only four toes on their back paws.",
+        "Cats have a keen sense of balance due to their flexible spine and inner ear structures.",
+        "Cats sleep for an average of 12-16 hours a day, conserving energy for hunting and play.",
+        "Cats communicate using a variety of vocalizations, body language, and scent marking.",
+        "Cats have a strong aversion to water due to their dense fur and the sensation it creates on their skin.",
+        "Domestic cats are descendants of wild cats, and their behavior still retains many instincts from their wild ancestors."
+      ]
+    }
+  ]
+}
